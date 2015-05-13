@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node build.js",
-    "start": "open http://localhost:3999 && building-static-server -p 3999 -d html_templates"
+    "start": "sleep 3 && open http://localhost:3999 & building-static-server -p 3999 -d html_templates"
   },
   "author": "",
   "license": "ISC",
