@@ -1,0 +1,20 @@
+{
+  "name": "emails",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "open http://localhost:3999 && building-static-server -p 3999 -d html_templates"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "building-static-server": "^3.0.0",
+    "glob": "^5.0.6",
+    "jade": "^1.9.2",
+    "juice": "^1.1.2",
+    "mkdirp": "^0.5.0",
+    "stylus": "^0.51.1"
+  }
+}
